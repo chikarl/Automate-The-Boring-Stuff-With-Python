@@ -7,9 +7,9 @@ grid = [['.', '.', '.', '.', '.', '.'],
         ['O', 'O', 'O', 'O', '.', '.'],
         ['.', 'O', 'O', '.', '.', '.'],
         ['.', '.', '.', '.', '.', '.']]
-for y in range(len(grid)):
-    for x in range(len(grid[y])):
-        print(f"[({x}) ({y})] {grid[x][y]}", end="")
+for y in range(len(grid[0])):
+    for x in range(len(grid)):
+        print(grid[x][y], end=" ")
     print("\n")
 
 
